@@ -1,0 +1,9 @@
+package org.sortApp;
+
+public class IPLDemo {
+	public static void main(String[] args) {
+		Player p1=new Player("Virat", 18);
+		
+	}
+
+}

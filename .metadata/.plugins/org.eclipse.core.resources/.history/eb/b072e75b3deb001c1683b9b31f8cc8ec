@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ArrayH {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[]= {11, 20,45,34,46,11,45,64,56,78,20,11};
+		display(arr);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the element to check occurance");
+		int ele=sc.nextInt();
+		System.out.println("Enter the number of occurance to check");
+		int oc=sc.nextInt();
+		int index=occurance(arr, ele, oc);
+		if(index>0) {
+			System.out.println("the element occured for "+oc+ " times in index "+index);
+		}
+	}
+
+	static int occurance(int[] arr, int ele, int oc) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	static void display(int[] arr) {
+		// TODO Auto-generated method stub
+		for(int i=0;i<arr.length;i++)
+		System.out.print(arr[i]+" ");
+	}
+
+}

@@ -1,0 +1,34 @@
+package org.sortApp;
+
+import java.util.*;
+public class CitySort {
+	public static void main(String[] args) {
+		
+		City c1=new City("mysore", 560078);
+		City c2=new City("ujjain", 456006);
+		City c3=new City("mumbai", 400002);
+		City c4=new City("chhatarpur", 471313);
+		City c5=new City("chennai", 600007);
+		
+		List<City> col=new  LinkedList<>();
+		
+		col.add(c1);
+		col.add(c2);
+		col.add(c3);
+		col.add(c4);
+		col.add(c5);
+		
+		System.out.println("Before sort the collection ");
+		System.out.println(col+"\n"); // this is print like a Collection 
+		
+		Collections.sort(col);
+		System.out.println("After sort the collection ");
+		
+		// Print the object one by one
+		for(City v: col) {
+			System.out.println();
+			System.out.println(v.cname+" "+v.pincode);
+		}
+	}
+
+}

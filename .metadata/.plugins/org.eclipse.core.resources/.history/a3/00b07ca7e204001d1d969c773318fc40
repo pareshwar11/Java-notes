@@ -1,0 +1,29 @@
+import java.util.*;
+public class IetratorDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection<String> col=new ArrayList<String>();
+		col.add("Raja");
+		col.add("Rani");
+		col.add("munna");
+		col.add("nibba");
+		col.add("nibbi");
+		
+		System.out.println(col);
+		
+		Iterator<String> itr=col.iterator();
+		
+//		while(itr.hasNext()) {
+//			System.out.println(itr.next());
+//		}
+		while(itr.hasNext()) {
+			String ele=itr.next();
+			if(ele.equals("munna")) 
+				itr.remove();
+		}
+
+		System.out.println(col);
+	}
+
+}

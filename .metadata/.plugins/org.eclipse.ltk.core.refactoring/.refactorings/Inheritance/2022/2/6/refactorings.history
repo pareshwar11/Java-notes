@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pattern_13_Palindromic&apos; to &apos;pattern13_Palindromic&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;pattern_13_Palindromic&apos;&#x0D;&#x0A;- Renamed element: &apos;pattern13_Palindromic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;pattern_13_Palindromic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{pattern_13_Palindromic.java[pattern_13_Palindromic" matchStrategy="1" name="pattern13_Palindromic" qualified="false" references="true" similarDeclarations="false" stamp="1643894256089" textual="false" version="1.0"/>
+</session>

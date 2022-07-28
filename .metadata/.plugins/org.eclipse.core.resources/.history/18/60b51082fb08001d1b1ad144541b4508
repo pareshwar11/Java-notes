@@ -1,0 +1,16 @@
+package org.sortApp;
+
+public class StudentEle implements Comparable<StudentEle>{
+	String name;
+	int perc;
+	public StudentEle(String name, int perc) {
+		this.name = name;
+		this.perc = perc;
+	}
+	@Override
+	public String toString() {
+		return this.name+" "+this.perc;
+	}
+	
+	
+}

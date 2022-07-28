@@ -1,0 +1,23 @@
+package org.sortApp;
+
+public class City implements Comparable<City> {
+	String cname;
+	long pincode;
+	public City(String cname, long pincode) {
+		super();
+		this.cname = cname;
+		this.pincode = pincode;
+	}
+	@Override
+	public String toString() {
+		return this.cname+" "+this.pincode;
+	}
+	@Override
+	public int compareTo(City o) {
+		// TODO Auto-generated method stub
+		return this.cname.compareToIgnoreCase(o.cname); // This will return Ascending order
+//		return this.cname.compareToIgnoreCase(o.cname);    This will return Descending order
+	}
+	
+
+}

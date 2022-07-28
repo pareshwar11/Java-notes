@@ -1,0 +1,7 @@
+package org.sortApp;
+
+public class StudentEle {
+	String emname;
+	int emno;
+	
+}

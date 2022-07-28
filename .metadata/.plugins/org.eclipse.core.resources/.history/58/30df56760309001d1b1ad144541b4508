@@ -1,0 +1,17 @@
+package org.sortApp;
+
+public class City {
+	String cname;
+	long pincode;
+	public City(String cname, long pincode) {
+		super();
+		this.cname = cname;
+		this.pincode = pincode;
+	}
+	@Override
+	public String toString() {
+		return this.cname+" "+this.pincode;
+	}
+	
+
+}

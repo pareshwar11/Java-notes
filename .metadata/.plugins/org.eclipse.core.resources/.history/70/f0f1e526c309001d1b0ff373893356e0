@@ -1,0 +1,13 @@
+package org.sortApp;
+
+public class Player {
+	String pname;
+	int jno;
+	public Player(String pname, int jno) {
+		super();
+		this.pname = pname;
+		this.jno = jno;
+	}
+	
+
+}
